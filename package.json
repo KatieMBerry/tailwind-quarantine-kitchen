@@ -1,7 +1,10 @@
 {
-  "name": "quarantineKitchen",
+  "name": "quarantinekitchen",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i src/styles.css -o public/styles.css"
+  },
   "license": "MIT",
   "dependencies": {
     "tailwindcss": "^2.2.7"
